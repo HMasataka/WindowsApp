@@ -17,5 +17,22 @@ namespace WindowsApp
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < panel1.Controls.Count; i++)
+            {
+                panel1.Controls[i].Text = i.ToString();
+            }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
